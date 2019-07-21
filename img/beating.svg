@@ -1,8 +1,12 @@
-<svg class="svg__beating d-none d-lg-flex"
-     width="1683px" height="279px"
-     viewBox="0 0 1683 279"
-     xmlns="http://www.w3.org/2000/svg"
-     xmlns:xlink="http://www.w3.org/1999/xlink">
+<!--<?xml-stylesheet type="text/css" href="style.css"?>-->
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.2"
+        baseProfile="full"
+        width="1683px" height="279px"
+        viewBox="0 0 1683 279">
+
     <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 0.62913254694498, -0.25657231186215, 0.25657231186215, 0.62913254694498,1536.52381757141, 56.4960746863703)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#FFFFFF">&#60;&#47;&#62;</tspan></text>
     <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 0.58798214978162, 0.21554688540119, -0.21554688540119, 0.58798214978162,1292.91861362558, 257.797911204247)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#FFFFFF">&#60;div&#62;</tspan></text>
     <text kerning="auto" font-family="Myriad Pro" fill="rgb(0, 0, 0)" transform="matrix( 0.72159603080403, 0.37432663296015, -0.37432663296015, 0.72159603080403,-2.90773349827525, 28.3037755798946)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#FFFFFF">{&#32;}</tspan></text>

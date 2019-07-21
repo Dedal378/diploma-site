@@ -14,28 +14,35 @@
 <body>
 
 <header>
-    <div class="container container_header">
+    <div class="container">
 
         <nav class="row navbar navbar-expand-lg d-none d-lg-flex">
             <ul class="navbar-nav ml-n2 mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Услуги</a>
+                    <a class="nav-link" href="#skills">Услуги</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Портфолио</a>
+                    <a class="nav-link" href="#portfolio">Портфолио</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Стоимость</a>
+                    <a class="nav-link" href="#price">Стоимость</a>
                 </li>
             </ul>
             <div class="navbar__tel mx-4 font-weight-bold"><a href="tel:+74999955577">+7 (499) 995-55-77</a></div>
             <button class="navbar__btn btn btn-outline-success my-2 my-sm-0" type="submit">Заказать звонок</button>
         </nav>
 
-        <div class="mob__container d-flex justify-content-between d-lg-none">
-            <div class="mob__menu"></div>
-            <div class="mob__tel font-weight-bold"><a href="tel:+74999955577">+7 (499) 995-55-77</a></div>
-            <div class="mob__call"></div>
+        <div class="mob-navbar d-flex justify-content-between d-lg-none">
+            <div class="dropdown">
+                <button class="dropdown-btn" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></button>
+                <div class="dropdown-menu" aria-labelledby="dLabel">
+                    <a class="dropdown-item" href="#skills">Услуги</a>
+                    <a class="dropdown-item" href="#portfolio">Портфолио</a>
+                    <a class="dropdown-item" href="#price">Стоимость</a>
+                </div>
+            </div>
+            <div class="mob-navbar__tel font-weight-bold"><a href="tel:+74999955577">+7 (499) 995-55-77</a></div>
+            <button class="mob-navbar__call"></button>
         </div>
 
     </div>
@@ -43,93 +50,80 @@
 
 <main>
 
-    <div class="container_title">
+    <div class="bio-cont">
 
-        <div class="bg-photo">
-
-            <object class="svg__bg d-none d-lg-flex" data="../img/bg_.svg" type="image/svg+xml">
+        <div class="bg-pic">
+            <object class="bg-pic__item-1 d-none d-lg-flex" data="../img/bg-txt-2.svg" type="image/svg+xml">
+                    Your browser does not support SVG
+                </object>
+            <object class="bg-pic__item-2" data="../img/bg.svg" type="image/svg+xml">
+                    Your browser does not support SVG
+            </object>
+            <img class="bg-pic__img" src="../img/man.png" alt="man">
+            <object class="bg-pic__mob-item d-lg-none" data="../img/mob-bg-text.svg" type="image/svg+xml">
                 Your browser does not support SVG
             </object>
-
-            <object class="svg__bg-txt d-none d-lg-flex" data="../img/bg-text.svg" type="image/svg+xml">
-                Your browser does not support SVG
-            </object>
-
-            <object class="svg__mob__bg d-lg-none" data="../img/mob-bg.svg" type="image/svg+xml">
-                Your browser does not support SVG
-            </object>
-
-            <object class="svg__mob__bg-text d-lg-none" data="../img/mob-bg-text.svg" type="image/svg+xml">
-                Your browser does not support SVG
-            </object>
-
-            <img class="photo__man order-md-0 order-lg-1" src="../img/man.png" alt="man">
-
         </div>
 
         <div class="container">
-
             <div class="row">
-                <div class="main_title d-flex flex-column col-12 col-lg-8 align-items-center align-items-xl-left">
-                    <div class="headline-name__text font-weight-bold">Дмитрий Алексеев</div>
-                    <div class="about-main__text">Frontend-разработчик и веб-верстальщик</div>
-                    <button type="button" class="btn btn__more-info">Узнать больше</button>
+                <div class="more-info d-flex flex-column col-12 col-lg-8 align-items-center align-items-xl-start">
+                    <div class="more-info__title font-weight-bold text-center text-xl-center">Дмитрий Алексеев</div>
+                    <div class="more-info__about">Frontend-разработчик и веб-верстальщик</div>
+                    <button type="button" class="more-info__btn btn">Узнать больше</button>
                 </div>
-<!--                <img class="photo__man order-md-0 order-lg-1" src="../img/man.png" alt="man">-->
             </div>
         </div>
     </div>
 
-    <div class="container my-job text-center">
+    <div id="skills" class="container text-center">
 
-        <div class="my-job__title_text font-weight-bold">Что я делаю</div>
+        <div class="skills__title font-weight-bold">Что я делаю</div>
 
         <div class="d-lg-flex justify-content-lg-between">
             <div class="row col-lg-3 col-12 flex-column justify-content-lg-center">
-                <div class="pic_tools align-self-center"></div>
-                <p class="text__about_my-job"><a href="#">Вёрстка лендинг–страниц и сайтов любой сложности</a></p>
+                <div class="skills__pic-tools align-self-center"></div>
+                <span class="skills__about"><a href="#">Вёрстка лендинг–страниц и сайтов любой сложности</a></span>
             </div>
             <div class="row col-lg-3 col-12 flex-column justify-content-lg-center">
-                <div class="pic_response align-self-center"></div>
-                <p class="text__about_my-job"><a href="#">Адаптивная вёрстка под все браузеры и устройства</a></p>
+                <div class="skills__pic-response align-self-center"></div>
+                <span class="skills__about"><a href="#">Адаптивная вёрстка под все браузеры и устройства</a></span>
             </div>
             <div class="row col-lg-3 col-12 flex-column justify-content-lg-center">
-                <div class="pic_programming align-self-center"></div>
-                <p class="text__about_my-job"><a href="#">Frontend–разработка и программирование</a></p>
+                <div class="skills__pic-programming align-self-center"></div>
+                <span class="skills__about"><a href="#">Frontend–разработка и программирование</a></span>
             </div>
             <div class="row col-lg-3 col-12 flex-column justify-content-lg-center">
-                <div class="pic_coding align-self-center"></div>
-                <p class="text__about_my-job"><a href="#">Исправление и доработка существующей вёрстки</a></p>
+                <div class="skills__pic_coding align-self-center"></div>
+                <span class="skills__about"><a href="#">Исправление и доработка существующей вёрстки</a></span>
             </div>
         </div>
-
-        <button type="button" class="btn btn__more-info justify-content-sm-center">Узнать стоимость</button>
+        <button id="price" type="button" class="more-info__btn btn justify-content-sm-center">Узнать стоимость</button>
 
     </div>
 
-    <div class="container__my-job_example">
+    <div id="portfolio">
 
-        <div class="container my-job_example text-center">
+        <div class="portfolio container text-center">
 
-            <div class="my-job_example__title-text font-weight-bold">Примеры моих работ</div>
+            <div class="portfolio__title font-weight-bold">Примеры моих работ</div>
 
             <div class="slider d-none d-lg-flex justify-content-between">
                 <div class="d-flex flex-column col">
-                    <div class="slider__arrow_left d-none d-sm-flex"></div>
+                    <div class="slider__arrow-left d-none d-sm-flex"></div>
                     <div class="slider__pic1"></div>
-                    <span class="text__about">Сайт психолога Веры Антоновой</span>
+                    <span class="slider__about"><a href="#">Сайт психолога Веры Антоновой</a></span>
                 </div>
                 <div class="d-flex flex-column col">
                     <div class="slider__pic2"></div>
-                    <span class="text__about">Сайт магазина детской одежды</span>
+                    <span class="slider__about"><a href="#">Сайт магазина детской одежды</a></span>
                 </div>
                 <div class="d-flex flex-column col">
                     <div class="slider__pic3"></div>
-                    <span class="text__about">Сайт магазина «Рыболов»</span>
+                    <span class="slider__about"><a href="#">Сайт магазина «Рыболов»</a></span>
                     <div class="slider__arrow_right d-none d-md-flex">
                         <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                xmlns:xlink="http://www.w3.org/1999/xlink"
                                 width="90px" height="90px">
                             <image  x="0px" y="0px" width="90px" height="90px"  xlink:href="data:img/png;base64,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" />
                         </svg>
@@ -138,11 +132,11 @@
             </div>
             <div class="d-lg-none d-flex flex-column align-items-center">
                 <div class="slider__pic2_1"></div>
-                <span class="text__about">Сайт магазина детской одежды</span>
+                <span class="slider__about"><a href="#">Сайт магазина детской одежды</a></span>
                 <div class="slider__dots-items"></div>
             </div>
 
-            <button type="button" class="btn btn__more-info btn__margin justify-content-sm-center">Заказать проект</button>
+            <button type="button" class="more-info__btn btn justify-content-sm-center">Заказать проект</button>
 
         </div>
     </div>
@@ -182,9 +176,9 @@
         <div class="footer__block d-flex align-items-center justify-content-between flex-wrap">
 
             <div class="footer__menu d-flex flex-column">
-                <a href="#">Услуги</a>
-                <a href="#">Портфолио</a>
-                <a href="#">Стоимость</a>
+                <a href="#skills">Услуги</a>
+                <a href="#portfolio">Портфолио</a>
+                <a href="#price">Стоимость</a>
             </div>
             <div class="footer__contacts d-flex flex-column justify-content-between">
                 <div class="footer__phone">
@@ -197,7 +191,7 @@
             <div class="footer__callback d-flex flex-column justify-content-start p-md-0">
 
                 <button class="footer__callback_btn btn btn-outline-success d-none d-sm-block" type="submit">Заказать звонок</button>
-                <button class="footer__callback_btn btn btn__more-info btn__margin d-sm-none" type="button">Заказать звонок</button>
+                <button class="footer__callback_btn btn more-info__btn btn__margin d-sm-none" type="button">Заказать звонок</button>
 
                 <div>
                     <a href="#" class="social_icon social_icon-vk"></a>

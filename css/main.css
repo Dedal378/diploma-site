@@ -86,15 +86,15 @@ main {
     color: #1f1f24;
 }
 
-.container_header {
+header .container {
     min-height: 90px;
 }
 
-.container_header .nav-link {
+.container-header .nav-link {
     margin-right: 15px;
 }
 
-.container_title {
+.bio-cont {
     background-color: #FBFBFB;
     padding-top: 30px;
     min-height: 658px;
@@ -118,7 +118,7 @@ main {
     min-height: 45px;
 }
 
-.btn__more-info {
+.more-info__btn {
     font-size: 18px;
     color: #fff;
     background-color: #ff4e2e;
@@ -128,75 +128,114 @@ main {
     margin: 40px 0;
 }
 
-.btn__more-info:hover {
+.more-info__btn:hover {
     color: #fff;
     background-color: #ed2617;
     border-color: #ed2617;
 }
 
-.main_title {
+.more-info {
     /*padding-left: 0;*/
 }
 
-.headline-name__text {
+.bg-pic {
+    position: absolute;
+    width: 100%;
+    max-height: 658px;
+    overflow: hidden;
+}
+
+.bg-pic__img {
+    position: relative;
+    width: 445px;
+    height: 638px;
+    object-fit: contain;
+    filter: drop-shadow(25px 15px 25px rgba(0,0,0,.2));
+    margin-top: -10px;
+    left: 61.8%;
+    z-index: 10;
+}
+
+/*
+.photo__man {
+    position: absolute;
+    width: 445px;
+    height: 638px;
+    object-fit: contain;
+    filter: drop-shadow(25px 15px 25px rgba(0,0,0,.2));
+    margin-top: -10px;
+    margin-left: 61.8%;
+}
+*/
+
+.bg-pic__item-2 {
+    position: absolute;
+    left: 31.5%;
+    max-height: 763px;
+}
+
+/*
+.svg__bg {
+    position: absolute;
+    left: 57.5%;
+}*/
+
+.bg-pic__item-1 {
+    /*max-height: 650px;*/
+    position: absolute;
+    left: 6.7%;
+}
+
+/*
+.svg__bg-txt {
+    position: absolute;
+    left: 6.6%;
+}*/
+
+.more-info__title {
     font-size: 80px;
     padding-top: 137px;
     letter-spacing: 0.8px;
 }
 
-.about-main__text {
+.more-info__about {
     font-size: 24px;
     color: #8993ad;
     margin-top: -3px;
     letter-spacing: 0.23px;
 }
 
-.text__about {
+.slider__about {
     font-size: 20px;
-    color: #8993ad;
     margin-top: 33px;
 }
 
-.photo__man {
-    position: absolute;
-    width: 445px;
-    height: 638px;
-    background-size: contain;
-    filter: drop-shadow(25px 15px 25px rgba(0,0,0,.2));
-    margin-top: -10px;
-    margin-left: 61.8%;
+.slider__about a {
+    color: #8993ad;
 }
 
-.mob__menu {
+.dropdown-btn {
     background: url("../icon/mob-icon-menu.png") no-repeat;
     width: 26px;
     height: 26px;
+    border: none;
 }
 
-.mob__call {
+.mob-navbar__call {
     background: url("../icon/mob-icon-tel.png") no-repeat;
     width: 26px;
     height: 26px;
+    border: none;
 }
 
-.svg__bg {
-    position: absolute;
-    left: 57.5%;
-}
-
-.svg__bg-txt {
-    position: absolute;
-    left: 6.6%;
-}
-
-.pic_tools {
+.skills__pic-tools {
     background: url('../icon/tools.png') no-repeat;
     width: 80px;
     height: 74px;
     background-size: contain;
 }
 
-.pic_response {
+.skills__pic-response {
     background: url('../icon/responsive.png') no-repeat;
     width: 80px;
     height: 74px;
@@ -204,7 +243,7 @@ main {
     background-size: contain;
 }
 
-.pic_programming {
+.skills__pic-programming {
     background: url('../icon/programming.png') no-repeat;
     width: 80px;
     height: 74px;
@@ -212,7 +251,7 @@ main {
     background-size: contain;
 }
 
-.pic_coding {
+.skills__pic_coding {
     background: url('../icon/coding.png') no-repeat;
     width: 80px;
     height: 74px;
@@ -220,42 +259,38 @@ main {
     background-size: contain;
 }
 
-.my-job__title_text {
+.skills__title {
     font-size: 54px;
     padding: 80px 0;
 }
 
-.my-job .btn__more-info {
+#skills .more-info__btn {
     margin-top: 77px;
 }
 
-.my-job {
+#skills {
     min-height: 650px;
 }
 
-.text__about_my-job {
+.skills__about {
     margin-top: 15px;
 }
 
-.text__about_my-job a {
+.skills__about a {
     font-size: 20px;
     color: #8993ad;
 }
 
-.container__my-job_example {
+#portfolio {
     min-height: 855px;
     background-color: #FBFBFB;
 }
 
-.my-job_example {
-    padding: 0;
-}
-
-.my-job_example .btn__more-info {
+.portfolio .more-info__btn {
     margin-top: 91px;
 }
 
-.my-job_example__title-text {
+.portfolio__title {
     font-size: 54px;
     padding: 76px 0 92px;
 }
@@ -302,7 +337,7 @@ main {
     padding-right: 0;
 }
 
-.slider__arrow_left {
+.slider__arrow-left {
     background-image: url("../icon/arrow.png");
     width: 61px;
     height: 60px;
@@ -498,7 +533,7 @@ main {
         /*text-align: center!important;*/
     }
 
-    .main_title {
+    .more-info {
         margin-left: 0;
         padding: 0;
     }
@@ -510,17 +545,27 @@ main {
         padding-top: 25px;
     }
 
-    .mob__tel a {
+    .mob-navbar__tel a {
         font-size: 18px;
         color: #1f1f24;
     }
 
-    .container_title {
+    .bio-cont {
         padding-top: 0;
+        min-height: 422px;
     }
 
-    .container__my-job_example {
+    #portfolio {
         min-height: auto;
+    }
+
+
+    .bg-pic__item-2 {
+        position: absolute;
+        left: 57.5%;
+        top: 58px;
+        /*max-height: 295px;*/
+        max-width: 100%;
     }
 
     .svg__mob__bg {
@@ -532,92 +577,100 @@ main {
         /*overflow: hidden;*/
     }
 
-    .svg__mob__bg-text {
-        position: absolute;
-        height: 6%;
-        left: 10.5%;
+    .bg-pic__mob-item {
+        /*position: relative;*/
+        /*height: 6%;*/
+        /*left: 50%;*/
+        /*right: 50%;*/
+        /*margin: 0;*/
+        /*padding: 0;*/
     }
 
-    .photo__man {
+    .bg-pic__img {
+        /*position: relative;*/
         max-width: 230px;
         max-height: 330px;
         object-fit: cover;
         filter: drop-shadow(25px 0 30px rgba(0,0,0,0));
-        margin: 22px 0 0 50px;
+        top: 22px;
+        left: 50%;
+        right: 50%;
+        margin: 0;
+        /*padding: ;*/
     }
 
-    .headline-name__text, .my-job__title_text, .my-job_example__title-text {
+    .more-info__title, .skills__title, .portfolio__title {
         font-size: 30px;
     }
 
-    .headline-name__text {
+    .more-info__title {
         min-width: 280px;
         padding: 10px 0 0 0;
         letter-spacing: -0.05px;
     }
 
-    .btn__more-info {
+    .more-info__btn {
         margin: 23px 0 0;
         min-width: 280px;
         font-size: 16px;
     }
 
-    .pic_tools {
+    .skills__pic-tools {
         margin: 0 0 0 17px;
         max-width: 100%;
         max-height: 56px;
     }
 
-    .pic_response {
+    .skills__pic-response {
         margin: 0 0 0 16px;
         max-width: 100%;
         max-height: 57px;
     }
 
-    .pic_programming {
+    .skills__pic-programming {
         margin: 3px 0 0 15px;
         max-width: 100%;
         max-height: 58px;
     }
 
-    .pic_coding {
+    .skills__pic_coding {
         margin: 0 0 0 14px;
         max-width: 100%;
         max-height: 60px;
     }
 
-    .my-job__title_text {
+    .skills__title {
         padding: 37px 0 39px;
     }
 
-    .about-main__text {
+    .more-info__about {
         font-size: 16px;
         margin-top: 2px;
         letter-spacing: -0.1px;
     }
 
-    .text__about {
+    .slider__about {
         font-size: 18px;
         margin-top: 14px;
     }
 
-    .text__about_my-job {
+    .skills__about {
         margin: 15px 0 49px;
     }
 
-    .text__about_my-job a {
+    .skills__about a {
         font-size: 16px;
     }
 
-    .my-job .row {
+    #skills .row {
         margin-left: 0;
     }
 
-    .my-job .btn__more-info {
+    #skills .more-info__btn {
         margin: 0 0 51px;
     }
 
-    .my-job_example__title-text {
+    .portfolio__title {
         padding: 44px 0 43px;
         line-height: 35px;
     }
@@ -631,11 +684,11 @@ main {
         margin-top: 42px;
     }
 
-    .my-job_example .text__about {
+    .portfolio .slider__about {
         margin: 14px 6px 0 -2px;
     }
 
-    .my-job_example .btn__more-info {
+    .portfolio .more-info__btn {
         margin: 49px 0 51px 0;
     }
 
@@ -691,11 +744,15 @@ main {
         padding: 0 20px;
     }
 
+    .bio-cont .container {
+        /*margin-top: 350px;*/
+    }
+
     footer .container {
         padding: 0 20px;
     }
 
-    .my-job .mb-md-3 {
+    #skills .mb-md-3 {
         margin: 0;
         justify-content: center;
     }
@@ -764,7 +821,7 @@ main {
         margin-top: 2px;
     }
 
-    .btn__more-info {
+    .more-info__btn {
         max-height: 55px;
     }
 
