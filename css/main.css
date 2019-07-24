@@ -94,10 +94,15 @@ header .container {
     margin-right: 15px;
 }
 
-.bio-cont {
+.bio {
     background-color: #FBFBFB;
     padding-top: 30px;
     min-height: 658px;
+    overflow: hidden;
+}
+
+.nav-item {
+    padding-right: 13px;
 }
 
 .nav-item a {
@@ -139,21 +144,20 @@ header .container {
 }
 
 .bg-pic {
-    position: absolute;
+    position: relative;
     width: 100%;
     max-height: 658px;
-    overflow: hidden;
 }
 
 .bg-pic__img {
-    position: relative;
+    position: absolute;
     width: 445px;
     height: 638px;
     object-fit: contain;
     filter: drop-shadow(25px 15px 25px rgba(0,0,0,.2));
     margin-top: -10px;
     left: 61.8%;
-    z-index: 10;
+    z-index: 30;
 }
 
 /*
@@ -168,7 +172,7 @@ header .container {
 }
 */
 
-.bg-pic__item-2 {
+.bg-pic__item-ellipse {
     position: absolute;
     left: 31.5%;
     max-height: 763px;
@@ -180,7 +184,7 @@ header .container {
     left: 57.5%;
 }*/
 
-.bg-pic__item-1 {
+.bg-pic__item-txt {
     /*max-height: 650px;*/
     position: absolute;
     left: 6.7%;
@@ -265,7 +269,7 @@ header .container {
 }
 
 #skills .more-info__btn {
-    margin-top: 77px;
+    margin-top: 93px;
 }
 
 #skills {
@@ -550,53 +554,47 @@ header .container {
         color: #1f1f24;
     }
 
-    .bio-cont {
+    .bio {
         padding-top: 0;
-        min-height: 422px;
-    }
-
-    #portfolio {
         min-height: auto;
+        /*min-height: 535px;*/
     }
 
-
-    .bg-pic__item-2 {
-        position: absolute;
-        left: 57.5%;
-        top: 58px;
-        /*max-height: 295px;*/
-        max-width: 100%;
-    }
-
-    .svg__mob__bg {
-        position: absolute;
-        width: 470px;
-        /*width: 147%;*/
-        top: 58px;
-        margin-right: 90px;
+    .bg-pic {
+        min-height: 352px;
         /*overflow: hidden;*/
     }
 
-    .bg-pic__mob-item {
-        /*position: relative;*/
-        /*height: 6%;*/
-        /*left: 50%;*/
-        /*right: 50%;*/
-        /*margin: 0;*/
-        /*padding: 0;*/
+    .bg-pic__item-ellipse {
+        min-width: 100%;
+        height: 393px;
+        top: 58px;
+        left: -19%;
     }
 
+    .bg-pic__mob-item-txt {
+        position: absolute;
+        right: 12%;
+        top: -9%;
+    }
+
+/*    .bg-pic__mob-item-txt {
+        position: absolute;
+        right: 12%;
+        top: -9%;
+    }*/
+
     .bg-pic__img {
-        /*position: relative;*/
         max-width: 230px;
         max-height: 330px;
         object-fit: cover;
         filter: drop-shadow(25px 0 30px rgba(0,0,0,0));
-        top: 22px;
-        left: 50%;
-        right: 50%;
-        margin: 0;
-        /*padding: ;*/
+        top: 30px;
+        left: 23%;
+    }
+
+    #portfolio {
+        min-height: auto;
     }
 
     .more-info__title, .skills__title, .portfolio__title {
@@ -744,7 +742,7 @@ header .container {
         padding: 0 20px;
     }
 
-    .bio-cont .container {
+    .bio .container {
         /*margin-top: 350px;*/
     }
 
