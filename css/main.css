@@ -38,10 +38,6 @@ button:focus,
     box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 }
 
-a {
-    /*color: #1f1f24;*/
-}
-
 a:hover {
     color: #fc557c !important;
     text-decoration: underline !important;
@@ -139,10 +135,6 @@ header .container {
     border-color: #ed2617;
 }
 
-.more-info {
-    /*padding-left: 0;*/
-}
-
 .bg-pic {
     position: relative;
     width: 100%;
@@ -160,41 +152,18 @@ header .container {
     z-index: 30;
 }
 
-/*
-.photo__man {
-    position: absolute;
-    width: 445px;
-    height: 638px;
-    object-fit: contain;
-    filter: drop-shadow(25px 15px 25px rgba(0,0,0,.2));
-    margin-top: -10px;
-    margin-left: 61.8%;
-}
-*/
-
 .bg-pic__item-ellipse {
     position: absolute;
     left: 31.5%;
     max-height: 763px;
+    animation: scale 2s ease 0.7s 1 alternate-reverse;
 }
-
-/*
-.svg__bg {
-    position: absolute;
-    left: 57.5%;
-}*/
 
 .bg-pic__item-txt {
-    /*max-height: 650px;*/
     position: absolute;
     left: 6.7%;
+    animation: scale 2.5s cubic-bezier(0.1,0.25,0.1,1) 0.5s 1 alternate;
 }
-
-/*
-.svg__bg-txt {
-    position: absolute;
-    left: 6.6%;
-}*/
 
 .more-info__title {
     font-size: 80px;
@@ -237,6 +206,12 @@ header .container {
     width: 80px;
     height: 74px;
     background-size: contain;
+    animation: zoom 1.2s ease-in 0.5s 1 normal;
+}
+
+.skills__pic-tools:hover {
+    transform: scale(1.2);
+    transition: 0.7s ease 0.1s;
 }
 
 .skills__pic-response {
@@ -245,6 +220,12 @@ header .container {
     height: 74px;
     margin-left: 40px;
     background-size: contain;
+    animation: zoom 1.2s ease-in 0.7s 1 normal;
+}
+
+.skills__pic-response:hover {
+    transform: scale(1.2);
+    transition: 0.7s ease 0.1s;
 }
 
 .skills__pic-programming {
@@ -253,6 +234,12 @@ header .container {
     height: 74px;
     margin-left: 44px;
     background-size: contain;
+    animation: zoom 1.2s ease-in 0.9s 1 normal;
+}
+
+.skills__pic-programming:hover {
+    transform: scale(1.2);
+    transition: 0.7s ease 0.1s;
 }
 
 .skills__pic_coding {
@@ -261,6 +248,14 @@ header .container {
     height: 74px;
     margin-left: 25px;
     background-size: contain;
+    animation: zoom 1.2s ease-in 1.1s 1 normal;
+}
+
+.skills__pic_coding:hover {
+    transform: scale(1.2);
+    transition-duration: 0.7s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
 }
 
 .skills__title {
@@ -521,6 +516,10 @@ header .container {
     min-height: 80px;
     background-color: #31293c;
     color: #fff;
+}
+
+.slick-prev:before {
+    content: url('../icon/arrow.png');
 }
 
 
@@ -873,6 +872,20 @@ header .container {
     }
 
 }
+
+@keyframes scale {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1) translate(7px); }
+    100% { transform: scale(1); }
+}
+
+@keyframes zoom {
+    0% { transform: scale(1); }
+    100% { transform: scale(1.2); }
+}
+
+
+
 
 
 

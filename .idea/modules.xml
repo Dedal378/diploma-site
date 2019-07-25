@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../../HTML_CSS_2/.idea/HTML_CSS_2.iml" filepath="$PROJECT_DIR$/../../HTML_CSS_2/.idea/HTML_CSS_2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../SimplePage/.idea/SimplePage.iml" filepath="$PROJECT_DIR$/../../SimplePage/.idea/SimplePage.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/diploma site.iml" filepath="$PROJECT_DIR$/.idea/diploma site.iml" />
     </modules>
   </component>
