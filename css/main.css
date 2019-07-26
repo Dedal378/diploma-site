@@ -140,12 +140,13 @@ header .container {
     background-color: #fbfbfb;
 }
 
-.modal-title {
-
-}
-
 .modal-footer > .btn-primary {
     background-color: #ff4e2e;
+    border: none;
+}
+
+.modal-footer > .btn-primary:hover {
+    background-color: #ed2617;
 }
 
 .modal-footer > .btn-primary:active:focus {
