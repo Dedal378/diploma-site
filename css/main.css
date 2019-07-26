@@ -926,8 +926,8 @@ header .container {
 
 @keyframes zoom-more {
     0% { transform: translate(0) scale(2); }
-    25% { transform: translate(0) scale(1); }
-    50% { transform: translate(50px) scale(1.15); }
+    25% { transform: translate(0) scale(0.9); }
+    50% { transform: translate(50px) scale(1); }
     100% { transform: translate(-50px) scale(1); }
 }
 
