@@ -135,6 +135,23 @@ header .container {
     border-color: #ed2617;
 }
 
+.modal-content {
+    border-radius: 0.5rem;
+    background-color: #fbfbfb;
+}
+
+.modal-title {
+
+}
+
+.modal-footer > .btn-primary {
+    background-color: #ff4e2e;
+}
+
+.modal-footer > .btn-primary:active:focus {
+    background-color: #3eed56;
+}
+
 .bg-pic {
     position: relative;
     width: 100%;
@@ -289,6 +306,10 @@ header .container {
     margin-top: 91px;
 }
 
+.more-info__btn:hover {
+    transform: scale(1.1) ;
+}
+
 .portfolio__title {
     font-size: 54px;
     padding: 76px 0 92px;
@@ -337,7 +358,7 @@ header .container {
 }
 
 .slider__arrow-left {
-    background-image: url("../icon/arrow.png");
+    background-image: url("../icon/arrow-left.png");
     width: 61px;
     height: 60px;
     position: absolute;
@@ -377,10 +398,11 @@ header .container {
     line-height: 30px;
 }
 
-.svg__beating {
+.svg-beating {
     position: absolute;
     margin-top: 64px;
     margin-left: 128px;
+    animation: zoom-more 5s ease-in-out 5s infinite alternate;
 }
 
 .footer__block {
@@ -518,9 +540,29 @@ header .container {
     color: #fff;
 }
 
-.slick-prev:before {
-    content: url('../icon/arrow.png');
+.slick-prev {
+    top: 115px;
+    left: -45px;
+    z-index: 70;
 }
+
+.slick-next {
+    top: 115px;
+    right: 25px;
+}
+
+.slick-prev:before {
+    content: url('../icon/arrow-left.png');
+}
+
+.slick-next:before {
+    content: url('../icon/arrow-right.png');
+}
+
+
+
+
+/* АДПТИВНОСТЬ */
 
 
 
@@ -532,9 +574,6 @@ header .container {
 }
 
 @media (max-width: 1199px) {
-    .text-lg-left {
-        /*text-align: center!important;*/
-    }
 
     .more-info {
         margin-left: 0;
@@ -884,7 +923,12 @@ header .container {
     100% { transform: scale(1.2); }
 }
 
-
+@keyframes zoom-more {
+    0% { transform: translate(0) scale(2); }
+    25% { transform: translate(0) scale(1); }
+    50% { transform: translate(50px); }
+    100% { transform: translate(-100px); }
+}
 
 
 
