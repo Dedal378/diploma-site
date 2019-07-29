@@ -1,0 +1,22 @@
+<svg
+        xmlns="http://www.w3.org/2000/svg"
+        version="1.2"
+        baseProfile="full"
+        width="900px" height="529px">
+
+<defs>
+        <linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+            <stop offset="0%" stop-color="rgb(242,101,34)" stop-opacity="1" />
+            <stop offset="18%" stop-color="rgb(246,55,90)" stop-opacity="1" />
+            <stop offset="99%" stop-color="rgb(250,8,145)" stop-opacity="1" />
+        </linearGradient>
+
+    </defs>
+
+    <text kerning="auto" font-family="Myriad Pro" fill="url(#PSgrad_0)" transform="matrix( 0.62913254694498, -0.25657231186215, 0.25657231186215, 0.62913254694498,311.023817571412, 476.49607468637)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#6055C4">&#60;&#47;&#62;</tspan></text>
+    <text kerning="auto" font-family="Myriad Pro" fill="url(#PSgrad_0)" transform="matrix( 0.75071668916306, 0.18406909437483, -0.18406909437483, 0.75071668916306,362.655738449168, 112.200218006236)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#6055C4">&#60;&#47;&#62;</tspan></text>
+    <text kerning="auto" font-family="Myriad Pro" fill="url(#PSgrad_0)" transform="matrix( 0.58798214978162, 0.21554688540119, -0.21554688540119, 0.58798214978162,809.418613625576, 413.797911204247)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#6055C4">&#60;div&#62;</tspan></text>
+    <text kerning="auto" font-family="Myriad Pro" fill="url(#PSgrad_0)" transform="matrix( 0.48280448948131, -0.12214047770298, 0.12214047770298, 0.48280448948131,834.802603946233, 32.8241993954872)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#6055C4">&#60;div&#62;</tspan></text>
+    <text kerning="auto" font-family="Myriad Pro" fill="url(#PSgrad_0)" transform="matrix( 0.72159603080403, 0.37432663296015, -0.37432663296015, 0.72159603080403,17.0922665017248, 35.3037755798946)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#6055C4">{&#32;}</tspan></text>
+    <text kerning="auto" font-family="Myriad Pro" fill="url(#PSgrad_0)" transform="matrix( 0.91532249290851, 0.26083794888422, -0.26083794888422, 0.91532249290852,-2.44449266936216, 522.956680629899)" font-size="60px"><tspan font-size="60px" font-family="Roboto" font-weight="bold" fill="#6055C4">&#35;</tspan></text>
+</svg>
