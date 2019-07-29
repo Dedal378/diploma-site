@@ -5,7 +5,5 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="008149afb0" level="application" />
-    <orderEntry type="module" module-name="SimplePage" />
-    <orderEntry type="module" module-name="HTML_CSS_2" />
   </component>
 </module>

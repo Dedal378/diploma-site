@@ -582,7 +582,13 @@ header .container {
     }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1024px) {
+    .more-info__title {
+        font-size: 54px;
+    }
+}
+
+@media (max-width: 580px) {
 
     header {
         padding-top: 25px;
@@ -768,9 +774,9 @@ header .container {
     .footer__copyright {
         font-size: 12px;
     }
-}
+/*}*/
 
-@media (max-width: 767px) {
+/*@media (max-width: 767px) {*/
 
     .container {
         padding: 0 20px;
