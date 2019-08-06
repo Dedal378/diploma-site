@@ -1,4 +1,5 @@
 $(document).ready(function(){
+
     $('.slider').slick({
         slidesToShow: 3,
         slidesToScroll: 3,
@@ -13,11 +14,11 @@ $(document).ready(function(){
                 }
             },
             {
-                breakpoint: 575,
+                breakpoint: 767,
                 settings: {
                     arrows: false,
                     slidesToShow: 1,
-                    slidesToScroll: 3,
+                    slidesToScroll: 1,
                     dots: true
                 }
             }

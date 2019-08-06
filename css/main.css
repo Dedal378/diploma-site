@@ -225,7 +225,7 @@ header .container {
     border: none;
 }
 
-.mob-navbar__call {
+.mob-navbar-call {
     background: url("../icon/mob-icon-tel.png") no-repeat;
     width: 26px;
     height: 26px;
@@ -332,7 +332,7 @@ header .container {
 .slider__pic1 {
     background-image: url('../img/img1.jpg');
     width: 100%;
-    min-height: 290px;
+    height: 290px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -340,25 +340,16 @@ header .container {
 .slider__pic2 {
     background-image: url('../img/img2.jpg');
     width: 100%;
-    min-height: 290px;
+    height: 290px;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom center;
 }
 
-.slider__pic2_1 {
-    background-image: url('../img/img2.jpg');
-    width: 280px;
-    height: 250px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-
 .slider__pic3 {
     background-image: url('../img/img3.jpg');
     width: 100%;
-    min-height: 290px;
+    height: 290px;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -418,14 +409,14 @@ header .container {
     line-height: 30px;
 }
 
-.svg-beating {
+.beating__svg {
     position: absolute;
     margin-top: 64px;
     margin-left: 128px;
     animation: zoom-more 5s ease-in-out 5s infinite alternate;
 }
 
-.footer__block {
+.footer {
     min-height: 260px;
 }
 
@@ -581,6 +572,12 @@ header .container {
 
 
 
+
+
+
+
+
+
 /* АДПТИВНОСТЬ */
 
 
@@ -616,6 +613,7 @@ header .container {
         left: 46.6%;
         width: 920px;
         height: 640px;
+        animation: scale 2s ease 0.7s 1 alternate-reverse;
     }
 
     .more-info__title {
@@ -696,8 +694,9 @@ header .container {
         margin: 93px 0 110px 0;
     }
 
-    .slider__pic1, .slider__pic2, .slider__pic3, .slider__pic4 {
-        min-height: 360px;
+    .slider__pic1, .slider__pic2, .slider__pic3 {
+        height: 360px;
+        width: 100%;
     }
 
     .slider__about {
@@ -746,7 +745,7 @@ header .container {
         display: none;
     }
 
-    .footer__block {
+    .footer {
         margin-top: 24px;
     }
 
@@ -947,12 +946,6 @@ header .container {
         margin-top: 42px;
     }
 
-    .slider__pic2 {
-        background-image: url('../img/img2.jpg');
-        width: 370px;
-        height: 290px;
-    }
-
     .portfolio .slider__about {
         margin: 14px 6px 0 -2px;
     }
@@ -1033,7 +1026,7 @@ header .container {
         margin-bottom: 11px;
     }
 
-    .social_icon_cont {
+    .footer__social_icon {
         margin: 50px 0 44px;
     }
 
@@ -1093,6 +1086,9 @@ header .container {
         left: 22%;
     }
 
+    .slick-dots li button:before {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 373px) {
@@ -1111,10 +1107,18 @@ header .container {
         left: 23%;
     }
 
+
+    .slider__pic1, .slider__pic2, .slider__pic3 {
+        height: 250px;
+        width: 100%;
+    }
+
     .footer__menu {
         padding: 25px 0 28px 0;
     }
 }
+
+
 
 @keyframes scale {
     0% { transform: scale(1); }
