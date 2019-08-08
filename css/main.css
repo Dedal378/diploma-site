@@ -196,6 +196,11 @@ header .container {
 
 .bio .more-info {
     padding-left: 15px;
+
+}
+
+.bio .more-info__btn {
+    padding-top: 20px;
 }
 
 .more-info__title {
