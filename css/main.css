@@ -66,10 +66,6 @@ input:valid:not(:placeholder-shown) {
     border-color: green;
 }
 
-.bio a {
-    z-index: 120;
-}
-
 .btn {
     border-radius: 0;
 }
@@ -200,8 +196,20 @@ header .container {
 }
 
 .bio .more-info__btn {
-    padding-top: 20px;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    z-index: 100;
 }
+
+/*.bio a {*/
+/*    color: #fff;*/
+/*    text-decoration: none !important;*/
+/*}*/
+
+/*.bio a:hover {*/
+/*    color: #fff !important;*/
+/*}*/
 
 .more-info__title {
     font-size: 80px;
