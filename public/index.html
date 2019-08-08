@@ -64,22 +64,25 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <form>
+                    <form>
+                        <div class="modal-body">
                             <div class="form-group">
                                 <label for="recipient-name" class="col-form-label">Имя:</label>
-                                <input type="text" class="form-control" id="recipient-name" autofocus autocomplete="on" pattern="[\wА-Яа-яЁё]" placeholder="ваше имя">
+                                <input type="text" class="form-control" id="recipient-name" autofocus autocomplete="on" placeholder="ваше имя" required>
+                                <span></span>
                             </div>
                             <div class="form-group">
                                 <label for="message-text" class="col-form-label">Телефон:</label>
-                                <input type="tel" class="form-control" id="message-text" autocomplete="on" pattern="[0-9]{10}" value="+7" placeholder="+79182223344">
+                                <input type="tel" class="form-control" id="message-text" autocomplete="on" pattern="[\+]\d{1}\s\d{3}\s\d{3}\s\d{2}\s\d{2}" minlength="16" maxlength="16" placeholder="ваш телефон" required>
+                                <span class="form-error">Это поле должно содержать телефон в формате +7 111 222 33 44</span>
                             </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-                        <button type="button" class="btn btn-primary">Отправить</button>
-                    </div>
+
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -93,33 +96,34 @@
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
-                    <div class="modal-body">
-                        <form>
+                    <form>
+                        <div class="modal-body">
                             <div class="form-group">
                                 <label for="recipient-name-1" class="col-form-label">Имя:</label>
-                                <input type="text" class="form-control" id="recipient-name-1" autofocus autocomplete="on" pattern="[\wА-Яа-яЁё]" placeholder="ваше имя">
+                                <input type="text" class="form-control" id="recipient-name-1" autofocus autocomplete="on" placeholder="ваше имя" required>
                             </div>
                             <div class="form-group">
                                 <label for="message-text-1" class="col-form-label">Телефон:</label>
-                                <input type="tel" class="form-control" id="message-text-1" autocomplete="on" pattern="[0-9]{10}" value="+7" placeholder="+79182223344">
+                                <input type="tel" class="form-control" id="message-text-1" autocomplete="on" pattern="[\+]\d{1}\s\d{3}\s\d{3}\s\d{2}\s\d{2}" minlength="16" maxlength="16" placeholder="ваш телефон" required>
+                                <span class="form-error">Это поле должно содержать телефон в формате +7 111 222 33 44</span>
                             </div>
                             <div class="form-group">
                                 <label for="message-text-2" class="col-form-label">Коротко о вашем проекте:</label>
                                 <textarea class="form-control" id="message-text-2" autocomplete="on" rows="5" placeholder="Название, цели вашего проекта, целевая группа, величина аудитории..."></textarea>
                             </div>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
-                        <button type="button" class="btn btn-primary">Отправить</button>
-                    </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                                <button type="submit" class="btn btn-primary">Отправить</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
 
     </div>
 
-    <div class="bio">
+    <section class="bio">
 
         <div class="bg-pic">
             <object class="bg-pic__item-txt d-none d-xl-flex" data="../img/bg-txt.svg" type="image/svg+xml">
@@ -148,24 +152,24 @@
                 <div class="more-info d-flex flex-column align-items-center align-items-sm-start">
                     <div class="more-info__title font-weight-bold text-center text-xl-left">Дмитрий Алексеев</div>
                     <div class="more-info__about text-center text-lg-left">Frontend-разработчик и веб-верстальщик</div>
-                    <button type="button" class="more-info__btn btn" data-toggle="modal" data-target="#modalCall">Узнать больше</button>
+                    <a href="#price"><button type="button" class="more-info__btn btn">Узнать больше</button></a>
                 </div>
             </div>
         </div>
 
-    </div>
+    </section>
 
     <div class="container d-sm-none">
         <div class="row justify-content-center">
             <div class="more-info d-flex flex-column col-12 align-items-center align-items-xl-start">
                 <div class="more-info__title font-weight-bold text-center text-xl-center">Дмитрий Алексеев</div>
                 <div class="more-info__about text-center text-lg-left">Frontend-разработчик и веб-верстальщик</div>
-                <button type="button" class="more-info__btn btn" data-toggle="modal" data-target="#modalCall">Узнать больше</button>
+                <a href="#price"><button type="button" class="more-info__btn btn">Узнать больше</button></a>
             </div>
         </div>
     </div>
 
-    <div id="skills" class="container text-center">
+    <section id="skills" class="container text-center">
 
         <div class="skills__title font-weight-bold">Что я делаю</div>
 
@@ -188,11 +192,10 @@
             </div>
         </div>
         <button type="button" class="more-info__btn btn justify-content-sm-center" data-toggle="modal" data-target="#modalCall">Узнать стоимость</button>
-<!--        <a href="#price"><button type="button" class="more-info__btn btn justify-content-sm-center">Узнать стоимость</button></a>-->
 
-    </div>
+    </section>
 
-    <div id="portfolio">
+    <section id="portfolio">
 
         <div class="portfolio container text-center">
 
@@ -230,9 +233,9 @@
             <button type="button" id="modal-call" class="more-info__btn btn justify-content-center" data-toggle="modal" data-target="#modalCall">Узнать стоимость</button>
 
         </div>
-    </div>
+    </section>
 
-    <div class="beating">
+    <section class="beating">
 
         <object class="beating__svg d-none d-lg-flex" data="../img/beating.svg" type="image/svg+xml">
             Your browser does not support SVG
@@ -257,7 +260,7 @@
 
         </div>
 
-    </div>
+    </section>
 
 </main>
 

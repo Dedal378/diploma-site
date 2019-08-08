@@ -1,4 +1,5 @@
 /*Минимальный сброс стилей для всех элементов*!*/
+
 *, *:before, *:after {
     box-sizing: inherit;
     margin: 0;
@@ -32,9 +33,7 @@ button:focus,
 .btn:active.focus,
 .btn:active:focus,
 .btn:focus {
-    outline: 0!important;
-    outline-color: transparent!important;
-    outline-style: none!important;
+    outline: transparent none 0 !important;
     box-shadow: 0 0 0 0 rgba(0,123,255,0)!important;
 }
 
@@ -59,8 +58,16 @@ main {
     position: relative;
 }
 
-.bio .more-info__btn {
-    z-index: 20;
+input:invalid:not(:placeholder-shown) {
+    border-color: red;
+}
+
+input:valid:not(:placeholder-shown) {
+    border-color: green;
+}
+
+.bio a {
+    z-index: 120;
 }
 
 .btn {
@@ -76,6 +83,7 @@ main {
     background-color: #f53f4f;
     border-color: #f53f4f;
 }
+
 
 #navbarSupportedContent button {
     height: 45px;
@@ -140,7 +148,6 @@ header .container {
 }
 
 .modal-content {
-    border-radius: 0.5rem;
     background-color: #fbfbfb;
 }
 
@@ -188,7 +195,6 @@ header .container {
 }
 
 .bio .more-info {
-    /*margin-left: 15px;*/
     padding-left: 15px;
 }
 
@@ -385,6 +391,11 @@ header .container {
     display: none;
 }
 
+.form-error {
+    color: #8993ad;
+    font-size: 12px;
+}
+
 .beating {
     color: #fff;
     background-image: linear-gradient(12deg, #ff8f5a 35%, #ff2f96 80%);
@@ -486,7 +497,6 @@ header .container {
 .social_icon {
     cursor: pointer;
     margin-top: 30px;
-    /*margin-left: 3px;*/
     display: inline-block;
     background-image: url("../icon/social-network-logo.png");
     background-repeat: no-repeat;
@@ -1137,29 +1147,5 @@ header .container {
     50% { transform: translate(50px) scale(1); }
     100% { transform: translate(-50px) scale(1); }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
