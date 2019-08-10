@@ -196,25 +196,12 @@ header .container {
 }
 
 .bio .more-info__btn {
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
     z-index: 100;
 }
-
-/*.bio a {*/
-/*    color: #fff;*/
-/*    text-decoration: none !important;*/
-/*}*/
-
-/*.bio a:hover {*/
-/*    color: #fff !important;*/
-/*}*/
 
 .more-info__title {
     font-size: 80px;
     padding-top: 137px;
-    /*letter-spacing: 0.8px;*/
     letter-spacing: 0.04rem;
 }
 
@@ -222,7 +209,6 @@ header .container {
     font-size: 24px;
     color: #8993ad;
     margin-top: -3px;
-    /*letter-spacing: 0.23px;*/
     letter-spacing: 0.007rem;
 }
 
@@ -421,13 +407,11 @@ header .container {
     font-size: 45px;
     margin-top: 75px;
     letter-spacing: -0.011rem;
-    /*letter-spacing: -0.2px;*/
     line-height: 60px;
 }
 
 .beating__text-small {
     font-size: 18px;
-    /*letter-spacing: -0.05px;*/
     letter-spacing: -0.0025rem;
     margin-top: 30px;
     line-height: 30px;
@@ -881,7 +865,6 @@ header .container {
     .more-info__title {
         min-width: 280px;
         padding: 9px 0 0 0;
-        /*letter-spacing: -0.05px;*/
         letter-spacing: -0.001rem;
     }
 
@@ -945,7 +928,6 @@ header .container {
     .more-info__about {
         font-size: 16px;
         padding: 2px;
-        /*letter-spacing: -0.1px;*/
         letter-spacing: -0.01rem;
 
     }
@@ -990,7 +972,6 @@ header .container {
     .beating__text-small {
         font-size: 15px;
         margin: 32px 0 41px -5px;
-        /*letter-spacing: -0.2px;*/
         letter-spacing: -0.015rem;
         line-height: 30px;
     }
@@ -999,7 +980,6 @@ header .container {
         font-size: 28px;
         margin-top: 42px;
         margin-left: -5px;
-        /*letter-spacing: -0.2px;*/
         letter-spacing: -0.015rem;
         line-height: 40px;
     }
@@ -1075,7 +1055,6 @@ header .container {
     }
 
     .footer__mail a {
-        /*letter-spacing: 0.4px;*/
         letter-spacing: 0.025rem;
     }
     
