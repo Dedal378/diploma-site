@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4306b6d2-552f-4f4d-b43e-da373e1d2d6b" name="Default Changelist" comment="" />
+    <list default="true" id="4306b6d2-552f-4f4d-b43e-da373e1d2d6b" name="Default Changelist" comment="доработки кнопки и тд">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,30 +27,16 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="477">
-              <caret line="75" column="93" selection-start-line="75" selection-start-column="93" selection-end-line="75" selection-end-column="93" />
+            <state relative-caret-position="1477">
+              <caret line="294" column="22" lean-forward="true" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-                <marker date="1565370423580" expanded="true" signature="7765:7953" ph="..." />
-                <marker date="1565370423580" expanded="true" signature="7954:8156" ph="..." />
-                <marker date="1565370423580" expanded="true" signature="12974:13139" ph="..." />
-                <marker date="1565370423580" expanded="true" signature="16236:16603" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/main.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-              <folding>
-                <element signature="e#61#839#0" />
+                <element signature="e#3019#3026#1" expanded="true" />
+                <element signature="e#5035#5042#1" expanded="true" />
+                <marker date="1565395323973" expanded="true" signature="16351:16603" ph="..." />
               </folding>
             </state>
           </provider>
@@ -57,12 +45,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="217" column="18" selection-start-line="217" selection-start-column="4" selection-end-line="217" selection-end-column="18" />
-              <folding>
-                <marker date="1565292753306" expanded="true" signature="51:131" ph="..." />
-                <marker date="1565292753306" expanded="true" signature="2489:2512" ph="..." />
-              </folding>
+            <state relative-caret-position="17969">
+              <caret line="1057" column="33" selection-start-line="1057" selection-start-column="33" selection-end-line="1057" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -80,8 +64,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>.skills__title</find>
-      <find>fa-phone</find>
       <find>.bg-pic__item-ellipse</find>
       <find>mob-navbar__tel</find>
       <find>dropdown-btn</find>
@@ -110,6 +92,8 @@
       <find>more-info</find>
       <find>lett</find>
       <find>autof</find>
+      <find>/*</find>
+      <find>&lt;!--</find>
     </findStrings>
     <replaceStrings>
       <replace>FBFBFB</replace>
@@ -169,9 +153,10 @@
         <option value="$PROJECT_DIR$/img/bg-txt.svg" />
         <option value="$PROJECT_DIR$/img/mob-bg-txt.svg" />
         <option value="$PROJECT_DIR$/slick/slick-init.js" />
+        <option value="$PROJECT_DIR$/js/main.js" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/js/main.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -187,35 +172,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="diploma site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diploma site" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="diploma site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diploma site" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="diploma site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diploma site" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="diploma site" type="b2602c69:ProjectViewProjectNode" />
-              <item name="diploma site" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -223,7 +180,12 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.6.0" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
@@ -232,7 +194,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -337,6 +299,10 @@
       <workItem from="1565106602047" duration="6194000" />
       <workItem from="1565188451603" duration="1875000" />
       <workItem from="1565196773328" duration="29755000" />
+      <workItem from="1565472207595" duration="192000" />
+      <workItem from="1565472424674" duration="1169000" />
+      <workItem from="1565475470465" duration="179000" />
+      <workItem from="1565476015747" duration="546000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1563579933399</created>
@@ -506,11 +472,18 @@
       <option name="project" value="LOCAL" />
       <updated>1565374244768</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="доработки кнопки и тд">
+      <created>1565451288331</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1565451288331</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="719752000" />
+    <option name="totallyTimeSpent" value="723043000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -547,7 +520,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" weight="0.3298731" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.2272203" />
+      <window_info anchor="right" id="Database" order="4" show_stripe_button="false" weight="0.3298731" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,7 +583,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="доработки кнопки и тд" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/background2.jpg" />
     <entry file="file://$PROJECT_DIR$/img/Ellipse-1.png" />
     <entry file="file://$PROJECT_DIR$/img/img1.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -790,12 +763,12 @@
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/bg.svg">
+      <provider editor-type-id="images" />
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="6" lean-forward="true" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
         </state>
       </provider>
-      <provider editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/img/bg-tab.svg">
       <provider selected="true" editor-type-id="images" />
@@ -807,20 +780,7 @@
     <entry file="file://$PROJECT_DIR$/img/mob-bg-txt.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/slick/slick-init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../Skillbox3days/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../../Skillbox3days/index.php" />
     <entry file="file://$PROJECT_DIR$/../../1с Bitrix/Skillbox/index.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -834,39 +794,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
+    <entry file="file://$PROJECT_DIR$/slick/slick-init.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="217" column="18" selection-start-line="217" selection-start-column="4" selection-end-line="217" selection-end-column="18" />
+        <state relative-caret-position="546">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <marker date="1565292753306" expanded="true" signature="51:131" ph="..." />
-            <marker date="1565292753306" expanded="true" signature="2489:2512" ph="..." />
+            <element signature="e#1056#1113#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="75" column="93" selection-start-line="75" selection-start-column="93" selection-end-line="75" selection-end-column="93" />
+        <state relative-caret-position="1477">
+          <caret line="294" column="22" lean-forward="true" selection-start-line="294" selection-start-column="22" selection-end-line="294" selection-end-column="22" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" />
-            <marker date="1565370423580" expanded="true" signature="7765:7953" ph="..." />
-            <marker date="1565370423580" expanded="true" signature="7954:8156" ph="..." />
-            <marker date="1565370423580" expanded="true" signature="12974:13139" ph="..." />
-            <marker date="1565370423580" expanded="true" signature="16236:16603" ph="..." />
+            <element signature="e#3019#3026#1" expanded="true" />
+            <element signature="e#5035#5042#1" expanded="true" />
+            <marker date="1565395323973" expanded="true" signature="16351:16603" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/main.js">
+    <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="44" column="3" lean-forward="true" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-          <folding>
-            <element signature="e#61#839#0" />
-          </folding>
+        <state relative-caret-position="17969">
+          <caret line="1057" column="33" selection-start-line="1057" selection-start-column="33" selection-end-line="1057" selection-end-column="33" />
         </state>
       </provider>
     </entry>
