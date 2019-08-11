@@ -1,0 +1,23 @@
+{
+  "name": "diploma-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dedal378/diploma-site.git"
+  },
+  "author": "orlovetsfoto@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dedal378/diploma-site/issues"
+  },
+  "homepage": "https://github.com/Dedal378/diploma-site#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0"
+  }
+}
