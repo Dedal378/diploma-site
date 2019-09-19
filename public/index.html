@@ -87,6 +87,42 @@
             </div>
         </div>
 
+        <div class="modal fade" id="modalData" tabindex="-1" role="dialog" aria-labelledby="modalDataLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="modalDataLabel">Оставьте, пожалуйста, ваши имя и телефон.</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <form>
+                        <div class="modal-body">
+                            <div class="form-group">
+                                <label for="recipient-name-2" class="col-form-label">Имя:</label>
+                                <input type="text" class="form-control" id="recipient-name-2" autocomplete="on" placeholder="ваше имя" required>
+                                <span></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text1" class="col-form-label">Телефон:</label>
+                                <input type="tel" class="form-control" id="message-text1" autocomplete="on" pattern="[\+]\d{1}\s\d{3}\s\d{3}\s\d{2}\s\d{2}" minlength="16" maxlength="16" placeholder="ваш телефон" required>
+                                <span class="form-error">Это поле должно содержать телефон в формате +7 111 222 33 44</span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text2" class="col-form-label">Email:</label>
+                                <input type="email" class="form-control" id="message-text2" autocomplete="on" pattern="[/^[a-zA-Z0-9.!#$%&*+/=?^_'{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/]" placeholder="ваш email" required>
+                                <span class="form-error"></span>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
+                            <button type="submit" class="btn btn-primary">Отправить</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
         <div class="modal fade" id="modalProject" tabindex="-1" role="dialog" aria-labelledby="modalProjectLabel" aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
@@ -99,17 +135,22 @@
                     <form>
                         <div class="modal-body">
                             <div class="form-group">
-                                <label for="recipient-name-1" class="col-form-label">Имя:</label>
-                                <input type="text" class="form-control" id="recipient-name-1" autocomplete="on" placeholder="ваше имя" required>
+                                <label for="recipient-name-3" class="col-form-label">Имя:</label>
+                                <input type="text" class="form-control" id="recipient-name-3" autocomplete="on" placeholder="ваше имя" required>
                             </div>
                             <div class="form-group">
-                                <label for="message-text-1" class="col-form-label">Телефон:</label>
-                                <input type="tel" class="form-control" id="message-text-1" autocomplete="on" pattern="[\+]\d{1}\s\d{3}\s\d{3}\s\d{2}\s\d{2}" minlength="16" maxlength="16" placeholder="ваш телефон" required>
+                                <label for="message-text3" class="col-form-label">Телефон:</label>
+                                <input type="tel" class="form-control" id="message-text3" autocomplete="on" pattern="[\+]\d{1}\s\d{3}\s\d{3}\s\d{2}\s\d{2}" minlength="16" maxlength="16" placeholder="ваш телефон" required>
                                 <span class="form-error">Это поле должно содержать телефон в формате +7 111 222 33 44</span>
                             </div>
                             <div class="form-group">
-                                <label for="message-text-2" class="col-form-label">Коротко о вашем проекте:</label>
-                                <textarea class="form-control" id="message-text-2" autocomplete="on" rows="5" placeholder="Название, цели вашего проекта, целевая группа, величина аудитории..."></textarea>
+                                <label for="message-text4" class="col-form-label">Email:</label>
+                                <input type="email" class="form-control" id="message-text4" autocomplete="on" pattern="[/^[a-zA-Z0-9.!#$%&*+/=?^_'{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/]" placeholder="ваш email" required>
+                                <span class="form-error"></span>
+                            </div>
+                            <div class="form-group">
+                                <label for="message-text5" class="col-form-label">Коротко о вашем проекте:</label>
+                                <textarea class="form-control" id="message-text5" autocomplete="on" rows="5" placeholder="Название, цели вашего проекта, целевая группа и тп..."></textarea>
                             </div>
                             <div class="modal-footer">
                                 <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрыть</button>
@@ -152,7 +193,7 @@
                 <div class="more-info d-flex flex-column align-items-center align-items-sm-start">
                     <h5 class="more-info__title font-weight-bold text-center text-xl-left">Александр Орловец</h5>
                     <div class="more-info__about text-center text-lg-left">Frontend-разработчик и веб-верстальщик</div>
-                    <button type="button" class="more-info__btn btn" data-toggle="modal" data-target="#modalCall">Узнать больше</button>
+                    <button type="button" class="more-info__btn btn" data-toggle="modal" data-target="#modalData">Узнать больше</button>
                 </div>
             </div>
         </div>
@@ -162,9 +203,9 @@
     <div class="container d-sm-none">
         <div class="row justify-content-center">
             <div class="more-info d-flex flex-column col-12 align-items-center align-items-xl-start">
-                <h5 class="more-info__title font-weight-bold text-center text-xl-center">Дмитрий Алексеев</h5>
+                <h5 class="more-info__title font-weight-bold text-center text-xl-center">Александр Орловец</h5>
                 <div class="more-info__about text-center text-lg-left">Frontend-разработчик и веб-верстальщик</div>
-                <button type="button" class="more-info__btn btn" data-toggle="modal" data-target="#modalCall">Узнать больше</button>
+                <button type="button" class="more-info__btn btn" data-toggle="modal" data-target="#modalData">Узнать больше</button>
             </div>
         </div>
     </div>
@@ -191,7 +232,7 @@
                 <span class="skills__about"><a href="#">Исправление и доработка существующей вёрстки</a></span>
             </div>
         </div>
-        <button type="button" class="more-info__btn btn justify-content-sm-center" data-toggle="modal" data-target="#modalCall">Узнать стоимость</button>
+        <button type="button" class="more-info__btn btn justify-content-sm-center" data-toggle="modal" data-target="#modalData">Узнать стоимость</button>
 
     </section>
 
@@ -230,7 +271,7 @@
 
 
             <button type="button" id="modal-project" class="more-info__btn btn justify-content-center" data-toggle="modal" data-target="#modalProject">Заказать проект</button>
-            <button type="button" id="modal-call" class="more-info__btn btn justify-content-center" data-toggle="modal" data-target="#modalCall">Узнать стоимость</button>
+            <button type="button" id="modal-call" class="more-info__btn btn justify-content-center" data-toggle="modal" data-target="#modalData">Узнать стоимость</button>
 
         </div>
     </section>
