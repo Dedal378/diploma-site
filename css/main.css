@@ -668,10 +668,6 @@ header .container {
         margin-top: 17px;
     }
 
-    #skills .row:nth-child(3), #skills .row:nth-child(4) {
-        padding-top: 79px;
-    }
-
     .skills__pic-tools {
         margin-right: 18px;
     }
@@ -792,9 +788,6 @@ header .container {
         height: 26px;
     }
 
-    #skills .row:nth-child(2), #skills .row:nth-child(3), #skills .row:nth-child(4) {
-        padding-top: 40px;
-    }
 }
 
 @media (max-width: 575px) {
