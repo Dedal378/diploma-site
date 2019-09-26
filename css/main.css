@@ -310,9 +310,6 @@ header .container {
 
 .skills__about {
     margin-top: 15px;
-}
-
-.skills__about a {
     font-size: 20px;
     color: #8993ad;
 }
@@ -409,7 +406,7 @@ header .container {
     top: 64px;
     left: 128px;
     /*left: 50%;*/
-    transform: translateX(-50%);
+    /*transform: translateX(-25%);*/
     animation: zoom-more 5s ease-in-out 5s infinite alternate;
 }
 
