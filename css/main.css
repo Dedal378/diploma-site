@@ -5,6 +5,7 @@
     box-sizing: inherit;
     margin: 0;
     padding: 0;
+    transition: all ease-in 0.3s;
 }
 
 html {
@@ -1060,7 +1061,7 @@ header .container {
     .footer__mail a {
         letter-spacing: 0.025rem;
     }
-    
+
     .footer__callback .footer__callback_btn {
         min-height: 55px;
         min-width: 280px;
