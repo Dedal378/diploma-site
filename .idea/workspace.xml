@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4306b6d2-552f-4f4d-b43e-da373e1d2d6b" name="Default Changelist" comment="доработки кнопки и тд">
+    <list default="true" id="4306b6d2-552f-4f4d-b43e-da373e1d2d6b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,9 +84,6 @@
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GithubDefaultAccount">
-    <option name="defaultAccountId" value="3fa2b910-3431-4fbd-9437-d7a9bd1b00a7" />
-  </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="909" />
@@ -105,10 +102,10 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
-    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="javascript.nodejs.core.library.configured.version" value="12.6.0" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.8.0" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -116,7 +113,7 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -146,10 +143,7 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
-    <configuration name="index9.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/diploma site/index9.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://orltestpage2.000webhostapp.com/diploma/public/index.html">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="https://orltestpage2.000webhostapp.com/diploma/index.html">
       <method v="2" />
     </configuration>
     <configuration name="slick-init.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="slick-init.js" working-dir="$PROJECT_DIR$/slick">
@@ -165,7 +159,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JavaScript Debug.index9.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Node.js.slick-init.js" />
     </list>
@@ -225,7 +218,14 @@
       <workItem from="1565472424674" duration="1169000" />
       <workItem from="1565475470465" duration="179000" />
       <workItem from="1565476015747" duration="546000" />
-      <workItem from="1569689268810" duration="885000" />
+      <workItem from="1569689268810" duration="1026000" />
+      <workItem from="1569690812290" duration="91000" />
+      <workItem from="1569690974005" duration="1895000" />
+      <workItem from="1569702799598" duration="68000" />
+      <workItem from="1569702870618" duration="78000" />
+      <workItem from="1569703025647" duration="115000" />
+      <workItem from="1569703145154" duration="33000" />
+      <workItem from="1569925406262" duration="189000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <created>1563579933399</created>
@@ -402,7 +402,21 @@
       <option name="project" value="LOCAL" />
       <updated>1565451288331</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="доработки кнопки и тд">
+      <created>1569690309910</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1569690309911</updated>
+    </task>
+    <task id="LOCAL-00027" summary="доработки кнопки и тд">
+      <created>1569925578404</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1569925578404</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView" selected-index="3">
